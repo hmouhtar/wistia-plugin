@@ -50,7 +50,7 @@ wp.domReady(function () {
 
                     if (height) {
                         if (body && body.hasClass('interim-login-success')) {
-                            //hide();
+                            hide();
                         } else {
                             parent.css('max-height', height + 40 + 'px');
                         }
